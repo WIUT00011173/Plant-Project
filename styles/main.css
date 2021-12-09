@@ -260,6 +260,98 @@ header nav > a:first-child, header nav > a:hover {
   margin-top: 20px;
 }
 
+.section-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+.left h1 {
+  margin-bottom: 40px;
+}
+
+.video-img {
+  position: relative;
+}
+
+.video-img > img {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F7FFEC;
+}
+
+.video-img .video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.video-img .video-icon > div {
+  background: rgba(255, 255, 255, 0.63);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.video-img .video-icon > div > div {
+  background: rgba(255, 255, 255, 0.815);
+  border-radius: 50%;
+}
+
+.video-img .video-icon > div > div img {
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.right .video-img {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.right .video-img > img {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F7FFEC;
+}
+
+.right .video-img .video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.right .video-img .video-icon > div {
+  background: rgba(255, 255, 255, 0.63);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.right .video-img .video-icon > div > div {
+  background: rgba(255, 255, 255, 0.815);
+  border-radius: 50%;
+}
+
+.right .video-img .video-icon > div > div img {
+  padding: 10px;
+  padding-left: 15px;
+}
+
 body {
   font-family: Raleway;
   font-style: normal;
