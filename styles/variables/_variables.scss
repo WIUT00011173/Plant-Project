@@ -1,0 +1,28 @@
+$primaryColor: #418A1C;
+$secondaryColor: #F7FFEC;
+$primaryBlack: #081800;
+$shadowColor: #51C815;
+
+@mixin btn {
+    padding: 20px 30px;
+    background-color: $primaryBlack;
+    box-shadow:  8px 8px 0px $shadowColor;
+};
+
+@mixin flex  {
+    display: flex;
+    justify-content: space-between;
+};
+
+@mixin text {
+    font-family: inherit;
+    font-size: 18px;
+    color: #081800;
+};
+
+@mixin img {
+    padding: 20px;
+    background-color: #F7FFEC;
+}
+
+

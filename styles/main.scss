@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "variables/variables";
+@import "blocks/section1";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
+@import "blocks/section2";
+@import "blocks/section3";
+// @import "blocks/section4";
+// @import "blocks/section5";
+// @import "blocks/section6";
+
+
+body {
+    font-family: Raleway;
+    font-style: normal;
+    line-height: 130%;
+    padding: 0 100px 0 200px;
+}
+
+a{
+    text-decoration: none;
+    @include text;
+}
+
+h1{
+    font-size: 57px;
+    font-family: inherit;
+    line-height: 70px;
+}
+
+section {
+    padding: 0 260px;
+
+    @media (max-width: 1440px) {
+        padding: 0 80px;
+    }
+}
+
+.btn {
+    background: $primaryBlack;
+    padding: 20px 30px;
+    box-shadow: 8px 8px 0px $shadowColor;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 58px;
+    position: relative;
+    text-decoration: none;
+
+    &:hover {
+        color: #FFFFFF;
+        box-shadow: none;
+        transition: 0.2s;
+    }
+}

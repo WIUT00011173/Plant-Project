@@ -1,0 +1,41 @@
+.section-3{
+    @include flex;
+    gap: 30px;
+    padding: 0;
+    margin-bottom: 100px;
+
+    .checkbox{
+        @include flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+       > img{
+            @include img;
+        }
+
+        .checks{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            p{
+                @include text;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img{
+                    padding: 12px;
+                    background-color: lawngreen;
+                }
+            }
+        }
+    }
+
+    .side2{
+        img{
+            @include img;
+            margin-top: 20px;
+        }
+    }
+}

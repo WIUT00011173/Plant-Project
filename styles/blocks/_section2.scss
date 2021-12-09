@@ -1,0 +1,50 @@
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 0;
+
+    .lung{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+
+        h1{
+            font-size: 57px;
+            font-family: inherit;
+            line-height: 70px;
+        }
+
+        img{
+            padding: 20px;
+            background-color: #F7FFEC;
+        }
+
+    
+    }
+
+    .info{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+
+        img{
+            background-color: #F7FFEC
+        }
+
+        p{
+            @include text;
+        }
+
+        a{
+            @include btn;
+            display: inline;
+            @include text;
+            color: #fff;
+            
+        }
+    }
+}
