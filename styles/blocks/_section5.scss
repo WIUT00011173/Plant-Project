@@ -1,0 +1,67 @@
+.section-5{
+    @include flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .descriptionBox1{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        background-color: $secondaryColor;
+        padding: 30px;
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            p{
+                font-size: 14px;
+            }
+            span{
+                color: $primaryColor;
+                font-weight: 800;
+            }
+        }
+    }
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .descriptionBox1{
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        background-color: $secondaryColor;
+        padding: 30px;
+
+        .info{
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            p{
+                font-size: 14px;
+            }
+            span{
+                color: $primaryColor;
+                font-weight: 800;
+            }
+        }
+    }
+    a{
+        @include btn;
+        @include text;
+        color: #fff;
+        display: inline-flex;
+    }
+}
